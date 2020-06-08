@@ -6,18 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>My New React Application</h1>
+        <br />
+        <p>I created this app using react create app command and this is the basic structure of a react app</p>
+        <img src={logo} width="200" height="200"/>
+        <hr />
+        <p>Edited by Rooshan Ahmed&copy;</p>
       </header>
     </div>
   );
